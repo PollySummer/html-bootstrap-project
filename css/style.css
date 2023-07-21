@@ -31,7 +31,6 @@ h2 {
   color: white;
 }
 @media (max-width: 425px) {
-
   .app-main-img {
     width: 180px;
     display: block;
@@ -45,10 +44,14 @@ h2 {
   h2 {
     font-size: 1.5em;
   }
-  .contact{
+}
+@media (min-width: 768px) {
+  .contact-item{
     display: flex;
-    flex-direction: row;
-    width: auto;
+    flex-direction: column;
+    align-items: center;
   }
-
+  .form-control {
+    width: 40%;
+  }
 }
