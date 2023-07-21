@@ -44,6 +44,19 @@ h2 {
   h2 {
     font-size: 1.5em;
   }
+  .navigation{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-text{
+   text-align: center;
+   line-height: 2em;
+  }
+  .nav-item{
+    margin: 10px;
+    text-align: center;
+  }
+
 }
 @media (min-width: 768px) {
   .contact-item{
@@ -51,7 +64,7 @@ h2 {
     flex-direction: column;
     align-items: center;
   }
-  .form-control {
+  .contact-item .form-control {
     width: 40%;
   }
   .contact-item .btn{
