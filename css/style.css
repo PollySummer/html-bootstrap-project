@@ -54,4 +54,7 @@ h2 {
   .form-control {
     width: 40%;
   }
+  .contact-item .btn{
+    width: 10%;
+  }
 }
