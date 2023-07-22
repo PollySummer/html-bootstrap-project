@@ -5,23 +5,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-.footer-navigation {
-  letter-spacing: 2px;
-}
 .main-img {
   width: 300px;
   height: 300px;
 }
-.footer-navigation {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
   color: #2e2f2f;
-}
-.footer-text {
-  letter-spacing: 2px;
 }
 h2 {
   letter-spacing: 2px;
@@ -30,6 +20,14 @@ h2 {
   background-color: rgb(184, 225, 247);
   color: white;
 }
+.footer-navigation {
+  letter-spacing: 2px;
+  list-style: none;
+}
+.footer-text {
+  letter-spacing: 2px;
+}
+
 @media (max-width: 425px) {
   .app-main-img {
     width: 180px;
@@ -45,38 +43,37 @@ h2 {
   h2 {
     font-size: 1.5em;
   }
-  .footer-navigation{
+  .contact h2 {
+    margin-top: 20px;
+  }
+  .footer-navigation {
     display: flex;
     flex-direction: column;
   }
-  .foot-nav-item{
+  .foot-nav-item {
     margin: 10px;
     text-align: center;
   }
-  .contact h2{
-    margin-top: 20px;
-  }
-  .footer-text{
+  .footer-text {
     text-align: center;
     line-height: 2em;
-   }
+  }
+}
 
-}
 @media (min-width: 768px) {
-.contact h2{
-  margin-top: 80px;
-}
-  .contact-item{
+  .contact h2 {
+    margin-top: 80px;
+  }
+  .contact-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
-
   }
   .contact-item .form-control {
     width: 35%;
   }
-  .contact-item .btn{
+  .contact-item .btn {
     width: 12%;
   }
 }
